@@ -1,0 +1,44 @@
+body {
+    position:relative;
+}
+.ui-expose-exposer {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:998;
+    opacity:.7;
+}
+
+.ui-expose-dark {
+    background:#6f6f6f;
+}
+
+.ui-expose-light {
+    background:#fff;
+}
+.ui-expose-exposed {
+    z-index: 999;
+    position:absolute !important;
+    
+    -moz-box-shadow:5px 5px 20px rgba(255, 255, 255, .6),
+                    -5px -5px 20px rgba(255, 255, 255, .6),
+                    -5px 5px 20px rgba(255, 255, 255, .6),
+                    5px -5px 20px rgba(255, 255, 255, .6);
+    
+    -webkit-box-shadow:5px 5px 20px rgba(255, 255, 255, .6),
+                    -5px -5px 20px rgba(255, 255, 255, .6),
+                    -5px 5px 20px rgba(255, 255, 255, .6),
+                    5px -5px 20px rgba(255, 255, 255, .6);
+    
+    -o-box-shadow:5px 5px 20px rgba(255, 255, 255, .6),
+                    -5px -5px 20px rgba(255, 255, 255, .6),
+                    -5px 5px 20px rgba(255, 255, 255, .6),
+                    5px -5px 20px rgba(255, 255, 255, .6);
+	
+    box-shadow:5px 5px 20px rgba(255, 255, 255, .6),
+                    -5px -5px 20px rgba(255, 255, 255, .6),
+                    -5px 5px 20px rgba(255, 255, 255, .6),
+                    5px -5px 20px rgba(255, 255, 255, .6);
+}
